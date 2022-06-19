@@ -17,15 +17,6 @@ nav{
 nav img{
     width: 150px;
 }
-
-.btn1{
-    padding: 15px 60px;
-    background-color: #fff;
-    border: none;
-    border-radius: 25px;
-    box-shadow: 0 3px 16px rgba(0,0,0,0.12);
-    font-family: 'Open Sans';
-}
 main{
     display: flex; 
     justify-content: center;
@@ -36,54 +27,19 @@ main{
 .text-axis{
     width: 65%;
  }
+
+.btn1{
+    padding: 15px 60px;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 3px 16px rgba(0,0,0,0.12);
+    font-family: 'Open Sans';
+}
+
  .text-axis1{
     width: 100%;
  }
- .headd{
-    font-size: 25px;
-    padding-right: 10px;
-    margin: 60px 20px 10px 5px;
-    font-family: 'Poppins';
-    font-size: 25px;
-    font-weight: 700;
-}
-.bodyy{
-    padding-right: 10px;
-    margin: 5px 20px 60px 5px;
-    font-size: 18px;
-    text-justify: distribute-all-lines;
-    color: gray;
-    font-family: 'Open Sans';
-    font-weight: 400;
-}
-.imgg{
-    padding-left: 5em;
-    width: fit-content;
-}
-.text-axis2{
-    width: 100%;
-    padding-right: 0px;
- }
- .headd1{
-    font-size: 25px;
-    padding-left: 5px;
-    margin: 60px 0px 10px;
-    font-family: 'Poppins';
-    font-weight: 700;
-}
-.bodyy1{
-    padding-left: 5px;
-    margin: 5px 0px 60px;
-    font-size: 18px;
-    text-justify: distribute-all-lines;
-    color: gray;
-    font-family: 'Open Sans';
-    font-weight: 400;
-}
-.imgg1{
-    padding-right: 5em;
-    width: fit-content;
-}
  .head{
     font-size: 32px;
     padding-right: 20px;
@@ -141,8 +97,51 @@ main{
     justify-content: center;
     align-items: center;
 }
-.flow{
-    display: flex;
+ .headd{
+    font-size: 25px;
+    padding-right: 10px;
+    margin: 60px 20px 10px 5px;
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(58, 54, 54);
+}
+.bodyy{
+    padding-right: 10px;
+    margin: 5px 5px 60px 5px;
+    font-size: 16px;
+    text-justify: distribute-all-lines;
+    color: gray;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+.imgg{
+    padding-left: 5em;
+    width: fit-content;
+}
+.text-axis2{
+    width: 100%;
+    padding-right: 0px;
+ }
+ .headd1{
+    font-size: 25px;
+    padding-left: 7px;
+    margin: 60px 0px 10px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: rgb(58, 54, 54);
+}
+.bodyy1{
+    padding-left: 5px;
+    margin: 5px 0px 60px;
+    font-size: 16px;
+    color: gray;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+.imgg1{
+    padding-right: 5em;
+    width: fit-content;
 }
 .com{
     display: inline-block;
@@ -167,6 +166,7 @@ main{
     font-family: 'Poppins';
     font-size: 25px;
     font-weight: 700;
+    color: rgb(58, 54, 54);
 }
 .btn2{
     width: 350px;
@@ -192,7 +192,7 @@ main{
     justify-content: space-between;
     padding: 130px 200px 100px 200px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 footer {
@@ -287,6 +287,8 @@ footer {
         border: none;
         border-radius: 25px;
         box-shadow: 0 3px 16px rgba(0,0,0,0.12);
+        font-family: 'Open Sans';
+        
     }
     main{
         display: block; 
@@ -302,25 +304,26 @@ footer {
         width: 100%;
      }
      .head{
-        font-size: 28px;
-        padding-right: 40px;
-        margin: 20px 20px;
+        font-size: 23px;
+        padding: 0 20px 0 0;
+        margin: 20px 0px;
+        justify-content: center;
+        place-items: center;
+        text-align: center;
+        width: 100%;
+        font-family: 'Poppins';
+    }
+    .body{
+        /* padding-right: 10px; */
+        margin: 20px 30px 20px 15px;
         justify-content: center;
         place-items: center;
         text-align: center;
         width: 100%;
     }
-    .body{
-        /* padding-right: 10px; */
-        margin: 20px 50px;
-        justify-content: center;
-        place-items: center;
-        /* text-align: center; */
-        width: 80%;
-    }
-    .btn{
+    .btn, .btn2{
         /* padding-right: 40px; */
-        margin: 20px 50px;
+        margin: 20px 40px;
         width: 250px;
         border: none;
         border-radius: 30px;
@@ -332,6 +335,7 @@ footer {
         position: relative;
         cursor: pointer;
         font-family: 'Poppins';
+        font-size: 15px;
         font-weight: 400;
         color: #fff;
     }
@@ -341,7 +345,7 @@ footer {
         display: block;  
     }
     .cts{
-        margin: 70px 50px;
+        margin: 70px 30px;
         width: 80%;
         display: flex;
         flex-direction: column-reverse;
@@ -360,18 +364,17 @@ footer {
         width: 100%;
      }
      .headd{
-        font-size: 20px;
-        padding: 3px 20px; 
-        margin: 5px 30px 5px;
+        font-size: 18px;
+        padding: 1px 20px; 
+        margin: 5px 30px 3px;
         font-family: 'Poppins';
-        color: rgb(29, 27, 27);
+        color: rgb(58, 54, 54);
         font-size: 20px;
-        font-weight: 500;
+        font-weight: 300px;
     }
     .bodyy{
         padding: 0px;
         margin: 0px 0px 5px;
-        font-size: 18px;
         text-align: center;
         color: gray;
         width: 100%;
@@ -384,7 +387,7 @@ footer {
         width: 100%;
     }
     .cts1{
-        margin: 70px 50px;
+        margin: 70px 30px;
         width: 80%;
         display: flex;
         flex-direction: column;
@@ -400,9 +403,12 @@ footer {
         width: 100%;
      }
      .headd1{
-        font-size: 20px;
-        padding: 3px 10px; 
+        font-size: 18px;
+        padding: 3px 5px; 
         margin: 5px 10px 5px;
+        font-family: 'Poppins';
+        color: rgb(58, 54, 54);
+        font-weight: 300px;
     }
     .bodyy1{
         padding: 0;
@@ -411,6 +417,8 @@ footer {
         text-align: center;
         color: gray;
         width: 100%;
+        font-family: 'Open Sans';
+        font-size: 15px;
     }
     .imgg1{
         margin-top: 10px;
@@ -435,9 +443,11 @@ footer {
         align-items: center;
     }
     .build{
-        padding: 5px;
-        margin: auto;
-        font-size: 21px;
+        padding: 20px 0px 0px 0px;
+        margin: 0;
+        font-family: 'Poppins';
+        font-weight: 400px;
+        font-size: 18px;
 
     }
     .footer {
@@ -446,7 +456,7 @@ footer {
         /* justify-content: space-between; */
         padding: 130px 20px 5px;
         font-family: 'Open Sans', sans-serif;
-        font-size: 0.7rem;
+        font-size: 15px;
     }
     
     footer {
